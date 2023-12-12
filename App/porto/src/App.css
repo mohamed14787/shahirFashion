@@ -1,0 +1,263 @@
+.App {
+  text-align: center;
+}
+
+.content{
+  margin-top: 250px;
+  align-items: start;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h2{
+  color: #fff;
+}
+
+.large-icon {
+  font-size: 24px; /* Adjust the font size to increase the icon size */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.grid-container {
+  background-color: transparent;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   /* Adjust the gap as needed */
+  padding: 20px;
+  position: relative; /* Fixed position at the bottom */
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  
+}
+
+.grid-item {
+  background-color : transparent;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px;
+}
+.page {
+  background: url("./Rectangle 5.png") center/cover no-repeat;
+  height: 100vh; /* Adjust the height as needed */
+  position: relative;
+}
+.page2 {
+  background: url("./Banner.png") center/cover no-repeat;
+  height: 100vh; /* Adjust the height as needed */
+  position: relative;
+}
+
+nav {
+  background-color: transparent; 
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: right;
+  width: 100%;
+  
+}
+.left-section,
+.middle-section,
+.right-section {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.middle-section {
+  flex-grow: 1;
+  text-align: center;
+  color: #fff;
+  margin-left: 35%;
+  
+ 
+}
+
+h2{
+  color: #fff;
+}
+.second {
+  margin-left: 35%;
+  margin-right: 10%;
+  font: 1em Helvetica, sans-serif;
+}
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+h3{
+  color: #fff;
+}
+
+h1{
+  color: #fff;
+}
+
+.mid{
+
+  margin-left: 30%;
+}
+
+.grid-cont {
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr;
+   /* Two equal-sized columns */
+  gap: 1px; /* Adjust the gap between columns as needed */
+}
+
+.tex{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; 
+}
+.column {
+  padding: 16px;
+  border: 1px solid #ddd;
+  width: auto; 
+  /* Optional: Add a border for better visibility */
+}
+.slider {
+  position: absolute;
+  height: auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+
+
+.container {
+  display: flex;
+  margin: 20px;;
+  height: 80vh;
+  
+
+   /* Set the height of the container to 100% of the viewport height */
+}
+
+.left-column {
+  flex: 1; /* Take up remaining space */
+   /* Optional: Add background color */
+   /* Optional: Add padding */
+   padding-left: 10px;
+
+  width: 100%; /* Adjust as needed */
+  height: auto;
+}
+.middle-column {
+  flex: 1; /* Take up remaining space */
+   /* Optional: Add background color */
+   /* Optional: Add padding */
+   width: 100%; /* Adjust as needed */
+   height: auto;
+   padding-left: 10px;
+} 
+
+.right-column {
+
+  flex: 1; /* Take up remaining space */
+   /* Optional: Add background color */
+ /* Optional: Add padding */
+ width: 100%; /* Adjust as needed */
+ height: auto;
+ padding-left: 10px;
+ 
+}
+
+.verticalDiv{
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: flex-start;
+}
+
+.image {
+  width: 100%; /* Adjust as needed */
+  height: 100%;
+}
+.bl {
+  color:#000 ;
+  align-items: start;
+  align-self: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
