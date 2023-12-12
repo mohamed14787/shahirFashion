@@ -1,33 +1,11 @@
 import { Grid } from "@material-ui/core";
-import './App.css';
+import "./App.css";
 import { CiLocationOn } from "react-icons/ci";
 import { FaLocationArrow } from "react-icons/fa";
-import Button from '@material-ui/core/Button';
+import Button from "@material-ui/core/Button";
 
-
-
-function Third(){
-    return(
-<div className="page2">
-  
-     
-     
-
-     <div className="tex">
-        <h1>ali</h1>
-     </div>
-
-
-     
-   
-       
-      
-       
-      </div>
-       
-       
-      
-    )
+function Third() {
+  return <div className="page2"></div>;
 }
 
 export default Third;
